@@ -626,6 +626,7 @@ class Brawlbot:
                 if time() > self.timestamp + self.HIDINGTIME or self.is_player_damaged():
                     print("Changing state to search")
                     self.lock.acquire()
+                    self.stuck_random_movement()
                     self.state = BotState.SEARCHING
                     self.lock.release()
 

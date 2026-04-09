@@ -8,7 +8,7 @@ class Constants:
     change the brawler_name to the one you are using, if its not found,
     please manually change the speed,attack_range and heightScaleFactor below
     """
-    brawler_name = "SAMPLE_NAME"
+    brawler_name = "frank"
     
     """
     go to https://pixelcrux.com/Brawl_Stars/Brawlers/ to find your
